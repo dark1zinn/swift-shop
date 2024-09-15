@@ -1,0 +1,7 @@
+#gallery {
+  min-width: 400px;
+  height: 500px;
+  border: 2px solid hsl(180, 1%, 41%);
+  justify-items: space-around;
+  align-items: center;
+}/*# sourceMappingURL=Gallery.css.map */
