@@ -2,7 +2,7 @@ header {
   display: inline-flex;
   flex-direction: column;
   color: hsl(180, 100%, 97%);
-  min-width: 340px;
+  min-width: 300px;
 }
 header #title {
   display: inline-flex;
@@ -19,7 +19,7 @@ header #title h1:hover {
 }
 header #categories {
   display: inline-flex;
-  min-width: 420px;
+  font-size: smaller;
   justify-content: space-around;
   background-color: hsl(0, 0%, 18%);
   overflow: hidden;

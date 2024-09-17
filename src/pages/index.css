@@ -11,6 +11,22 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+html {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  justify-items: center;
+}
+html body {
   margin: 0px;
+  min-width: 300px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+html body #root {
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  overflow: hidden;
 }/*# sourceMappingURL=index.css.map */

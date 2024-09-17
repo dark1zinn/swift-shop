@@ -2,7 +2,7 @@ header {
     display: inline-flex;
     flex-direction: column;
     color: hsl(180, 100%, 97%);
-    min-width: 340px;
+    min-width: 300px;
 
     #title {
         display: inline-flex;
@@ -21,7 +21,7 @@ header {
 
     #categories {
         display: inline-flex;
-        min-width: 420px;
+        font-size: smaller;
         justify-content: space-around;
         background-color: hsl(0, 0%, 18%);
         overflow: hidden;

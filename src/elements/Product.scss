@@ -1,5 +1,13 @@
 #products {
+    display: flex;
+    flex-direction: column;
     width: 100px;
     height: auto;
+    text-align: center;
     border: 3px solid hsl(0, 0%, 1%);
+
+    img {
+        min-width: 100px;
+        max-width: 400px;
+    }
 }

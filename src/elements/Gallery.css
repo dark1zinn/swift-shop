@@ -1,7 +1,10 @@
 #gallery {
-  min-width: 400px;
+  min-width: 300px;
   height: 500px;
   border: 2px solid hsl(180, 1%, 41%);
   justify-items: space-around;
   align-items: center;
+}
+#gallery #products {
+  align-self: center;
 }/*# sourceMappingURL=Gallery.css.map */
