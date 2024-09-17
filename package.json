@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "bunx --bun vite",
-    "build": "vite build",
+    "build": "bunx --bun vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "bun run build",
