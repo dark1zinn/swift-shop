@@ -14,20 +14,23 @@
 }
 
 html {
+  min-height: 100vh;
   max-width: fit-content;
   justify-items: center;
 
   body {
-    margin: 0px;
-    min-width: 300px;
+    margin: 0;
+    max-width: -moz-fit-content;
     max-width: fit-content;
   
     #root {
       display: flex;
       flex-direction: column;
-      min-width: 300px;
+      justify-content: space-between;
+      min-width: 100vw;
       max-width: fit-content;
-      overflow: hidden;
+      min-height: 100vh;
+      max-height: 100vh;
     }
   }
 }

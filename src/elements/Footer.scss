@@ -1,8 +1,11 @@
 footer {
-    display: flex;
-    height: 50px;
+    display: inline-flex;
+    min-width: 300px;
+    min-height: 34px;
+    height: 63px;
     flex-direction: row;
-    background-color: hsl(0, 0%, 18%);
+    background-color: #2e2e2e;
+    align-items: center;
     justify-content: space-around;
 
     .mn-item {

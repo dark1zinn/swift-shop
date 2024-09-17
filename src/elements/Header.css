@@ -1,7 +1,8 @@
 header {
   display: inline-flex;
   flex-direction: column;
-  color: hsl(180, 100%, 97%);
+  color: azure;
+  min-height: 110px;
   min-width: 300px;
 }
 header #title {
@@ -12,6 +13,7 @@ header #title {
 }
 header #title h1 {
   transition: all 1s;
+  margin-block: 16px;
 }
 header #title h1:hover {
   text-shadow: 0px 2px 4px hsl(180, 100%, 97%);
@@ -21,12 +23,12 @@ header #categories {
   display: inline-flex;
   font-size: smaller;
   justify-content: space-around;
-  background-color: hsl(0, 0%, 18%);
-  overflow: hidden;
-}
-header #categories p {
-  padding-inline: 7px;
-  transition: 0.4s;
+  align-items: center;
+  background-color: #2e2e2e;
+  min-height: 30px;
+  overflow: hidden p;
+  overflow-padding-inline: 7px;
+  overflow-transition: 0.4s;
 }
 header #categories p:hover {
   background-color: hsl(180, 0%, 44%);
