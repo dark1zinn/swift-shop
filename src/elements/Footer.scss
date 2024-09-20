@@ -9,8 +9,13 @@ footer {
     justify-content: space-around;
 
     .mn-item {
-        transition: all 1s;
-        cursor: pointer;
+        min-width: 20px;
+        width: 30px;
+        min-height: 20px;
+        height: 30px;
+        cursor: default;
+        padding: 4px;
+        transition: all 0.3s;
     }
     .mn-item:hover {
         background-color: hsla(0, 0%, 59%, 0.645);

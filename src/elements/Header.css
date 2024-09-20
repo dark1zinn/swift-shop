@@ -12,6 +12,7 @@ header #title {
   justify-content: space-around;
 }
 header #title h1 {
+  cursor: default;
   transition: all 1s;
   margin-block: 16px;
 }
@@ -26,11 +27,15 @@ header #categories {
   align-items: center;
   background-color: #2e2e2e;
   min-height: 30px;
-  overflow: hidden p;
-  overflow-padding-inline: 7px;
-  overflow-transition: 0.4s;
+  overflow: hidden;
+}
+header #categories p {
+  padding-inline: 7px;
+  padding-block: 3px;
+  transition: 0.4s;
 }
 header #categories p:hover {
+  cursor: context-menu;
   background-color: hsl(180, 0%, 44%);
   box-shadow: 0px 0px 5px hsl(180, 100%, 97%);
 }/*# sourceMappingURL=Header.css.map */

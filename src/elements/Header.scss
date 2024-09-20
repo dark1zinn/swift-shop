@@ -12,6 +12,7 @@ header {
         justify-content: space-around;
 
         h1 {
+            cursor: default;
             transition: all 1s;
             margin-block: 16px;
         }
@@ -28,13 +29,15 @@ header {
         align-items: center;
         background-color: #2e2e2e;
         min-height: 30px;
-        overflow: hidden
+        overflow: hidden;
         
         p {
             padding-inline: 7px;
+            padding-block: 3px;
             transition: 0.4s;
         }
         p:hover {
+            cursor: context-menu;
             background-color: hsl(180, 0%, 44%);
             box-shadow: 0px 0px 5px hsl(180, 100%, 97%);
         }
